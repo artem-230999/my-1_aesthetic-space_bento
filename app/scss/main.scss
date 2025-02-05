@@ -1,0 +1,61 @@
+
+// header
+.header {
+  padding: 50px 0;
+
+  &__btn {
+    margin-left: auto;
+    margin-right: 160px;
+  }
+}
+.nav {
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+// footer
+.footer {
+  &__box {
+    background-color: var(--caramel);
+    border-radius: 30px;
+    padding: 50px 50px 22px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    margin-bottom: 36px;
+  }
+
+  &__item {
+    width: 50%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.3;
+  
+    span {
+      display: block;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__logo-box {
+    width: 50%;
+  }
+}
